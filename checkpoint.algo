@@ -1,0 +1,37 @@
+ALGORITHM sum
+VAR
+    set1, set2 : ARRAY_OF INTEGER
+    result : BOOLEAN :=flase;
+    sum1, sum2, i, j : INTEGER :-0;
+BEGIN
+        READ(set1)
+        READ(set2)
+
+FOR i FROM 0 TO set1.length()-1 DO
+    WHILE (set1[i] !=set2[j]) DO
+
+FOR j FROM 0 TO set2.length()-1
+
+END_FOR
+
+ALGORITHM nb-word-vowels
+VAR
+        str: STRING;
+        count, countv: INTEGER:= 0;
+        vowels: ARRAY_OF char['a','e','i','u','o','A','E','U','I','O'];
+BEGIN
+    REPEAT
+        READ(str)
+    UNTIL (str.length() != 0)
+
+FOR i FROM 0 TO str.length()-1  DO
+    IF (str[i] = ' ') THEN
+        count++;
+    ELSE IF (str[i] in vowels)
+        countv++;
+    END_IF
+END_FOR
+Write('The number of words is: ', count+1)
+Write('The number of vowels is: ', countv)
+END
+
